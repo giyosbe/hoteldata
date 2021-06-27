@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+.h1{
+    color: blue;
+    font-size: 60px;
+    
+    text-align: center;
+}
+.box01{
+    font-size: 25px;
+    padding: 5px;
+    text-decoration:none;
+    color: rgb(253, 5, 25);
+   
+}
+#navbar a{
+    float: right;
+    font-size: 25px;
+    padding: 5px;
+    text-decoration:none;
+    color: rgb(253, 5, 25);
+    margin-top: 1px;
+}
+.box0{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 25px;
+}
+/* media */
+@media(max-width:991px){
+    body{
+        overflow-x: hidden;
+    }
+    #navbar{
+        position: absolute;
+        top: 3px;
+    }
+    .box0{
+       display: none;
+    }
+ .box01{
+     font-size: 7px;
+     display: flex;
+ }   
+.h1{
+    
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+   left: 50px;
+    
+}
+ section .p{
+    position: absolute;
+    top: 60px;
+    font-size: 20px;
+}
+#had{
+    display: none;
+}
+#img2{
+    
+   
+    background: url("./img/unnamed.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 250px;
+    z-index: 3;
+    position: absolute;
+    top: 70%;
+}
+#h2{
+    
+    background-color: yellow;
+    width: 100%;
+    font-size: 15px;
+    height: 350px;
+    padding-top: 10px;
+position: absolute;
+top: 100%;
+    z-index: 2;
+    
+}
+#had{
+    position: absolute;
+    bottom: 1px;
+}
+}
+/* header */
+#box{
+    margin-top: 290px;
+    color: red;
+    padding: 10px;
+}
+
+.p{
+    font-size: 29px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec{
+    border: solid;
+    background:  url("./img/HD_Hotel.jpg") no-repeat center center/cover ;
+    height: 600px;
+    width: 100%;
+   
+}
+#box:hover{
+color: red;
+background: yellow;
+transition: .3s;
+width: 100px;
+height: 40px;
+}
+/* main */
+#h2{
+    
+    background-color: yellow;
+    width: 100%;
+    font-size: 15px;
+    height: 250px;
+    padding-top: 10px;
+}
+.dcs{
+    text-align: center;
+    font-size: 70px;
+}
+.vaqt{
+    display: flex;
+    width: 100%;
+}
+#img2{
+    
+    
+    background: url("./img/unnamed.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 250px;
+    
+}
+#savol{
+    font-size: 30px;
+    color: red;
+}
+#sarlavha{
+    color: rgb(6, 252, 6);
+    font-size: 47px;
+}
+#data{
+    text-align: center;
+}
+#buyurtma{
+    color: black;
+    background-color:darkorange;
+    width: 150px;
+    height: 30px;
+}
+#buyurtma:hover{
+    color: navy;
+    background-color: salmon;
+width: 170px;
+height: 25px;
+}
+#section{
+    background: url("./img/HD_Hotel.jpg");
+}
+.per{
+    background: url("./img/orqa\ fon.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+#ng{
+    color: red;
+    float: left;
+}
+.input{
+    color: red;
+    border-radius: 20px;
+    width: 15%;
+    height: 40px;
+    background-color: darkkhaki;
+}
+.abouth{
+    width: 100%;
+    height: 200px;
+    background: url("./img/HD_Hotel.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+}
+.person1{
+ border-radius: 40px; 
+ background: url("./img/person1.jpg");  
+width: 10%;
+
+}
+.person2{
+    background: url("./img/person2.jpg");
+    border-radius: 40px;
+    height: 35px;
+    
+}
+
+.commn{
+    text-align: center;
+    font-size: 60px;
+}
+.clas{
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+#ted{
+    background: url("./img/person2.jpg") no-repeat center center/cover;
+    width: 90px;
+    height: 110px;
+    border-radius: 50%;
+}
+.teddy{
+    background: url("./img/person2.jpg") no-repeat center center/cover;
+    width: 90px;
+    height: 110px;
+    border-radius: 50%;
+}
+/* aboutni mediasi */
+@media(max-width:991px){
+    #navbar{
+        position: absolute;
+        top: 1%;
+    }
+    .bb{
+        display: none;
+    }
+    .dcs{
+        position: absolute;
+        top: 20px;
+        display: block;
+        font-size: 40px;
+    }
+    .ra2{
+        width: 100vw;
+        height: 500px;
+    }
+    .ra1, .ra3 , .ra4{
+        display: none;
+    }
+    .qoshimcha{
+        font-size: 25px;
+    }
+    .abuy{
+        font-size:  28px;
+    }
+    .abouth{
+        width: 100%;
+        height: 890px;
+    }
+    #ng{
+        display: none;
+    }
+    .commn{
+        text-align: center;
+        font-size: 40px;
+    }
+    .ted{
+        position: absolute;
+        left: 0%;
+       
+    }
+    .chp{
+        font-size: 25px;
+        
+        
+    }
+    .sp{
+       display: none;
+       
+    }
+   
+    .teddy{
+        display: none;
+
+    }
+   
+    #had{
+        text-align: center;
+    }
+
+}
+.qoshimcha{
+    font-size: 23px;
+}
+
+
+/* footer */
+#had{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background: rgb(61, 58, 58);
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
